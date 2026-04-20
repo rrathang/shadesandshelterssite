@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Services by Shades and Shelters - Construction, Interior Design, Turnkey Projects">
+  <title>Our Services | Shades and Shelters</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .service-row {
+      margin-bottom: 5rem;
+    }
+    .service-row:nth-child(even) .grid-2 {
+      direction: rtl;
+    }
+    .service-row:nth-child(even) .service-content {
+      direction: ltr;
+    }
+    .service-image img {
+      border-radius: 8px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+    .service-list {
+      margin-top: 1.5rem;
+    }
+    .service-list li {
+      margin-bottom: 0.8rem;
+      position: relative;
+      padding-left: 25px;
+    }
+    .service-list li::before {
+      content: '✓';
+      position: absolute;
+      left: 0;
+      color: var(--accent-color);
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header style="background: rgba(255,255,255,0.95);">
+    <div class="container">
+      <nav>
+        <a href="index.html" class="logo">
+          <span>SHADES AND SHELTERS</span>
+        </a>
+        <div class="hamburger">
+          &#9776;
+        </div>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="services.html" class="active">Services</a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <section class="section-padding bg-dark text-center" style="margin-top: 70px;">
+    <div class="container">
+      <h1 style="color: var(--secondary-color); margin-bottom: 0;">Our Services</h1>
+      <p style="color: var(--accent-color);">Comprehensive Solutions Under One Roof</p>
+    </div>
+  </section>
+
+  <!-- Services Content -->
+  <section class="section-padding container">
+
+    <!-- Construction -->
+    <div class="service-row animate-on-scroll">
+      <div class="grid grid-2" style="align-items: center;">
+        <div class="service-image">
+          <img src="images/service-construction.jpg" alt="Construction Service" onerror="this.src='https://placehold.co/800x600/1a1a1a/C9A14A?text=Construction'">
+        </div>
+        <div class="service-content">
+          <h2 style="font-size: 2.5rem;">Construction</h2>
+          <p>We build robust, structurally sound, and aesthetically pleasing residential and commercial properties. Our process emphasizes durability, Vastu compliance, and modern architectural standards.</p>
+          <ul class="service-list">
+            <li>Residential Villas & Independent Houses</li>
+            <li>Commercial Complexes & Corporate Offices</li>
+            <li>Renovation & Remodeling</li>
+            <li>Structural Engineering & Planning</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Interior Design -->
+    <div class="service-row animate-on-scroll">
+      <div class="grid grid-2" style="align-items: center;">
+        <div class="service-image">
+          <img src="images/service-interior.JPG" alt="Interior Design Service" onerror="this.src='https://placehold.co/800x600/1a1a1a/C9A14A?text=Interior+Design'">
+        </div>
+        <div class="service-content">
+          <h2 style="font-size: 2.5rem;">Interior Design</h2>
+          <p>Transforming blank spaces into luxurious, functional experiences. Our interior design wing crafts customized environments that reflect your personality while maximizing utility and flow.</p>
+          <ul class="service-list">
+            <li>Bespoke Furniture & Modular Kitchens</li>
+            <li>Lighting Design & Automation</li>
+            <li>False Ceiling & Wall Paneling</li>
+            <li>Commercial & Retail Showroom Interiors</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Turnkey Projects -->
+    <div class="service-row animate-on-scroll">
+      <div class="grid grid-2" style="align-items: center;">
+        <div class="service-image">
+          <img src="images/service-turnkey.jpg" alt="Turnkey Projects Service" onerror="this.src='https://placehold.co/800x600/1a1a1a/C9A14A?text=Turnkey+Solutions'">
+        </div>
+        <div class="service-content">
+          <h2 style="font-size: 2.5rem;">Turnkey Projects</h2>
+          <p>Experience hassle-free execution. From the initial blueprint to the final coat of paint, we manage the entire lifecycle of the project. You deal with one single point of contact.</p>
+          <ul class="service-list">
+            <li>Conceptualization & Architecture Approval</li>
+            <li>Material Procurement & Logistics Management</li>
+            <li>End-to-End Execution (Civil + Interiors)</li>
+            <li>Final Handover Ready for Occupancy</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-bottom" style="border-top: none; padding-top: 0;">
+        &copy; 2026 Shades and Shelters. All rights reserved. <br/> <a href="index.html" class="text-accent">Back to Home</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float -->
+  <a href="https://wa.me/919876543210" class="whatsapp-float" target="_blank">&#128172;</a>
+  <script src="js/script.js"></script>
+</body>
+</html>

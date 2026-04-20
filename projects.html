@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Shades and Shelters - Projects in Chennai.">
+  <title>Projects | Shades and Shelters</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    /* Prevent layout shifting during filter animation */
+    .project-item {
+      transition: all 0.3s ease;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header style="background: rgba(255,255,255,0.95);">
+    <div class="container">
+      <nav>
+        <a href="index.html" class="logo">
+          <span>SHADES AND Shelters</span>
+        </a>
+        <div class="hamburger">
+          &#9776;
+        </div>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="services.html">Services</a>
+          <a href="projects.html" class="active">Projects</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <section class="section-padding bg-dark text-center" style="margin-top: 70px;">
+    <div class="container">
+      <h1 style="color: var(--secondary-color); margin-bottom: 0;">Our Portfolio</h1>
+      <p style="color: var(--accent-color);">Glimpses of Masterpieces</p>
+    </div>
+  </section>
+
+  <!-- Projects Gallery -->
+  <section class="section-padding container">
+    
+    <!-- Filters -->
+    <div class="filter-btns animate-on-scroll">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="residential">Residential</button>
+      <button class="filter-btn" data-filter="commercial">Commercial</button>
+      <button class="filter-btn" data-filter="interior">Interior</button>
+    </div>
+
+    <!-- Gallery Grid -->
+    <div class="grid grid-3" id="projectGallery">
+      
+      <!-- Residential 1 -->
+      <div class="project-card project-item animate-on-scroll" data-category="residential">
+        <img src="images/proj-res-1.jpg" alt="Modern Villa" onerror="this.src='https://placehold.co/600x400/1a1a1a/C9A14A?text=Residential+Villa'">
+        <div class="project-overlay">
+          <h3>The Glasshouse Villa</h3>
+          <p>Residential</p>
+        </div>
+      </div>
+
+      <!-- Commercial 1 -->
+      <div class="project-card project-item animate-on-scroll" data-category="commercial">
+        <img src="images/proj-com-1.jpeg" alt="Corporate Office" onerror="this.src='https://placehold.co/600x400/1a1a1a/ffffff?text=Corporate+Office'">
+        <div class="project-overlay">
+          <h3>TechPark HQ</h3>
+          <p>Commercial</p>
+        </div>
+      </div>
+
+      <!-- Interior 1 -->
+      <div class="project-card project-item animate-on-scroll" data-category="interior">
+        <img src="images/proj-int-1.JPG" alt="Luxury Living Room" onerror="this.src='https://placehold.co/600x400/1a1a1a/C9A14A?text=Luxury+Living+Room'">
+        <div class="project-overlay">
+          <h3>Zen Living Space</h3>
+          <p>Interior</p>
+        </div>
+      </div>
+
+      <!-- Residential 2 -->
+      <div class="project-card project-item animate-on-scroll" data-category="residential">
+        <img src="images/proj-res-2.jpg" alt="Independent House" onerror="this.src='https://placehold.co/600x400/1a1a1a/ffffff?text=Independent+House'">
+        <div class="project-overlay">
+          <h3>Heritage Residence</h3>
+          <p>Residential</p>
+        </div>
+      </div>
+
+      <!-- Interior 2 -->
+      <div class="project-card project-item animate-on-scroll" data-category="interior">
+        <img src="images/proj-int-2.jpg" alt="Modular Kitchen" onerror="this.src='https://placehold.co/600x400/1a1a1a/C9A14A?text=Modular+Kitchen'">
+        <div class="project-overlay">
+          <h3>Gourmet Kitchen</h3>
+          <p>Interior</p>
+        </div>
+      </div>
+
+      <!-- Commercial 2 -->
+      <div class="project-card project-item animate-on-scroll" data-category="commercial">
+        <img src="images/proj-com-2.jpg" alt="Boutique Hotel" onerror="this.src='https://placehold.co/600x400/1a1a1a/ffffff?text=Boutique+Hotel'">
+        <div class="project-overlay">
+          <h3>Boutique Hotel Lobby</h3>
+          <p>Commercial</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-bottom" style="border-top: none; padding-top: 0;">
+        &copy; 2026 Shades and Shelters. All rights reserved. <br/> <a href="index.html" class="text-accent">Back to Home</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float -->
+  <a href="https://wa.me/919876543210" class="whatsapp-float" target="_blank">&#128172;</a>
+  <script src="js/script.js"></script>
+</body>
+</html>
